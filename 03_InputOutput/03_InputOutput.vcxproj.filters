@@ -15,19 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="test.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="201_variable1.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="202_local.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="203_datatype.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="204_constant.c">
+    <ClCompile Include="301_output.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
