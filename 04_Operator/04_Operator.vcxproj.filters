@@ -15,28 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="301_output.c">
+    <ClCompile Include="401_operator.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="302_input.c">
+    <ClCompile Include="402_ternary.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="303_input.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="304_input.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="305_input.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="306_input.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="template.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="hello.c">
+    <ClCompile Include="403_bit_operator.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
