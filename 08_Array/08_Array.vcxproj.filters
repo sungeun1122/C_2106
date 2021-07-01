@@ -15,34 +15,32 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="701_function.c">
+    <ClCompile Include="801_array.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="702_func_call.c">
+    <ClCompile Include="802_array_init.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="703_return.c">
+    <ClCompile Include="배열1_자가진단8.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="myfunction.c">
+    <ClCompile Include="803_size_length.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="704_declaration.c">
+    <ClCompile Include="804_max_min.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="705_recursive.c">
+    <ClCompile Include="배열1_형성평가7.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test.c">
+    <ClCompile Include="805_array_str.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="함수2_자가진단4.c">
+    <ClCompile Include="806_ndim_array.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="myfunction.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
+    <ClCompile Include="배열2_자가진단6.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

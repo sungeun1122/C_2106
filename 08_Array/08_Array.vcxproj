@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{18D65538-5296-4914-AB1D-0059EB8575F1}</ProjectGuid>
-    <RootNamespace>My07_Function</RootNamespace>
+    <ProjectGuid>{C479E9CA-A2AC-4526-8635-563B4528E8D5}</ProjectGuid>
+    <RootNamespace>My08_Array</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -110,44 +110,50 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="701_function.c">
+    <ClCompile Include="801_array.c">
       <SubType>
       </SubType>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="702_func_call.c">
+    <ClCompile Include="802_array_init.c">
       <SubType>
       </SubType>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="703_return.c">
+    <ClCompile Include="803_size_length.c">
       <SubType>
       </SubType>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="704_declaration.c">
+    <ClCompile Include="804_max_min.c">
       <SubType>
       </SubType>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="705_recursive.c">
+    <ClCompile Include="805_array_str.c">
       <SubType>
       </SubType>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="함수2_자가진단4.c">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="myfunction.c" />
-    <ClCompile Include="test.c">
+    <ClCompile Include="806_ndim_array.c">
       <SubType>
       </SubType>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="myfunction.h" />
+    <ClCompile Include="배열2_자가진단6.c">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="배열1_형성평가7.c">
+      <SubType>
+      </SubType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="배열1_자가진단8.c">
+      <SubType>
+      </SubType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
