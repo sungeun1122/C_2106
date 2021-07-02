@@ -24,19 +24,19 @@ int main()
 
 	int success = 0;  // 합격학생수
 
-					  // 학생별 평균 계산
+	// 학생별 평균 계산
 	for (int stu = 0; stu < NUM_STU; stu++) {
 
 		int sum = 0;   // 총점 
 		double avg = 0.0; // 평균
 
-						  // 위 학생(stu) 의 4과목 점수 합산
+		// 위 학생(stu) 의 4과목 점수 합산
 		for (int subj = 0; subj < NUM_SUBJ; subj++) {
 			sum += point[stu][subj];
 		}
 		avg = (double)sum / NUM_SUBJ;  // 평균계산!
 
-									   // 합격여부
+		// 합격여부
 		if (avg >= 80) {
 			printf("pass\n");
 			success++;  // 합격자수 추가
